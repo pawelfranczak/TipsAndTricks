@@ -1,0 +1,45 @@
+﻿GIT :-)
+
+po instalicaji gita dobrze go skofigurowac:
+git config --global user.name "Imię i nazwisko"
+git config --global user.email "adres@email.pl"
+git config --global color.status auto
+git config --global color.branch auto
+dwa ostatnie odpowiada za kolory
+
+Inicjalizacja lokalnego repo:
+gdy jestesmy w glowny foldrze naszego projektu
+git init
+to utworzy folder .git
+
+git add .   	doda wszystkie do wirtualnej listy
+git commit -m "komentarz" 	
+
+git commit -am "komnetarz" - wszystkie zmienione pliki doda do listy i je zakomituje
+
+git statius - pokazuje jakie pliki sa zmienione lub nowe (untracked files)
+
+git add - pokazuje czy cos jest na liscie do zakomitowania	
+
+GIT REMOTE
+gdy utworzymy na githubie repo
+echo "# j2blogApi" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/pawelfranczak/j2blogApi.git
+git push -u origin master
+
+usuniecie remote 
+git remote rm origin
+
+
+jezeli chcesz zapisac haslo do remote
+git config credential.helper store
+przy nastepnym pushu zostanie zapisane
+
+
+sprawdzenie czy cos jest do sciagniecia :)
+git remote update - zaktualizuje referencje do zrodel online
+
+git pull - zaktualizuj do wersji z zdalnego repo
