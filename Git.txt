@@ -17,7 +17,7 @@ git commit -m "komentarz"
 
 git commit -am "komnetarz" - wszystkie zmienione pliki doda do listy i je zakomituje
 
-git statius - pokazuje jakie pliki sa zmienione lub nowe (untracked files)
+git status - pokazuje jakie pliki sa zmienione lub nowe (untracked files)
 
 git add - pokazuje czy cos jest na liscie do zakomitowania	
 
