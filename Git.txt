@@ -45,3 +45,6 @@ git remote update - zaktualizuje referencje do zrodel online
 git pull - zaktualizuj do wersji z zdalnego repo
 
 git diff --name-only --cached - wyswietlenie listy plikow dodanych za pomoca add
+
+praca na branchach
+https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
