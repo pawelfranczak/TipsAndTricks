@@ -48,3 +48,7 @@ git diff --name-only --cached - wyswietlenie listy plikow dodanych za pomoca add
 
 praca na branchach
 https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
+
+
+sciaganie całego repo
+git clone https://...
