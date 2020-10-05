@@ -1,4 +1,6 @@
 ﻿GIT :-)
+ 
+wszędzie main zamiast master!
 
 po instalicaji gita dobrze go skofigurowac:
 git config --global user.name "Imię i nazwisko"
